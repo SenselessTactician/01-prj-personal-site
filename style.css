@@ -1,1 +1,57 @@
-/* Add you CSS here */
+/* Set the background color for the whole page */
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif; /* Use a clean, easy-to-read font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #222;
+  padding: 10px 0;
+}
+
+/* Style the navigation links */
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline; /* Display links in a row */
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+/* Add some space to each section */
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Center the hero section text */
+#hero {
+  text-align: center;
+}
+
+/* Style section headings */
+section h2 {
+  color: #222;
+}
+
+/* Style the skills list */
+#skills ul {
+  padding-left: 20px;
+}

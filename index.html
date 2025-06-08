@@ -2,10 +2,101 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <title>My Personal Portfolio</title>
+  <!-- This line links your CSS file to your HTML file -->
   <link rel="stylesheet" href="style.css">
+  <!-- Link to Google Fonts for text fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <!-- Link to Google Material Icons for icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation Bar -->
+  <nav>
+    <ul style="padding: 0; margin: 0; list-style-type: none;">
+      <!-- Left side links -->
+      <span style="float: left;">
+        <!-- Main navigation links -->
+        <li style="display: inline; margin: 0 10px;">
+          <a href="#hero"><span class="material-icons" style="vertical-align: middle;">home</span> Home</a>
+        </li>
+        <li style="display: inline; margin: 0 10px;">
+          <a href="#bio"><span class="material-icons" style="vertical-align: middle;">person</span> About</a>
+        </li>
+        <li style="display: inline; margin: 0 10px;">
+          <a href="#skills"><span class="material-icons" style="vertical-align: middle;">build</span> Skills</a>
+        </li>
+        <li style="display: inline; margin: 0 10px;">
+          <a href="#projects"><span class="material-icons" style="vertical-align: middle;">folder</span> Projects</a>
+        </li>
+      </span>
+      <div style="clear: both;"></div>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <!-- Show your picture at the top of the hero section -->
+    <img src="img/me.png" alt="A photo of me" style="width:120px; border-radius:60px; display:block; margin: 0 auto 16px auto;">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hello! I'm a web development student. Explore my projects and skills below.</p>
+  </section>
+
+  <!-- Bio Section -->
+  <section id="bio">
+    <h2>About Me</h2>
+    <p>
+      I am currently studying web development in college. I enjoy learning new technologies and building creative projects.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript (beginner)</li>
+      <li>Teamwork</li>
+      <li>Problem Solving</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Check back soon for updates on my latest projects!</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: Otobiolotu@smu.edu</p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer style="background: #222; color: white; padding: 16px 0; margin-top: 40px;">
+    <!-- Footer container for right-aligned links -->
+    <div style="max-width: 900px; margin: 0 auto;">
+      <!-- Use a simple div floated right for beginner CSS -->
+      <div style="float: right;">
+        <!-- Footer links with icons -->
+        <a href="#contact" style="color: white; margin-right: 16px; text-decoration: none;">
+          <span class="material-icons" style="vertical-align: middle;">mail</span> Contact
+        </a>
+        <a href="https://github.com/" target="_blank" style="color: white; margin-right: 16px; text-decoration: none;">
+          <span class="material-icons" style="vertical-align: middle;">code</span> GitHub
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" style="color: white; margin-right: 16px; text-decoration: none;">
+          <span class="material-icons" style="vertical-align: middle;">work</span> LinkedIn
+        </a>
+        <a href="https://www.indeed.com/" target="_blank" style="color: white; text-decoration: none;">
+          <span class="material-icons" style="vertical-align: middle;">search</span> Indeed
+        </a>
+      </div>
+      <!-- Clear floats so footer height is correct -->
+      <div style="clear: both;"></div>
+    </div>
+  </footer>
 </body>
 </html>
